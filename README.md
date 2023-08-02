@@ -1,13 +1,8 @@
-# desafio-backend-modulo-04-sistema-bancario-ddst10
+# Sistema Bancario BackEnd
 
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Desafio | Back-end - Módulo 2
-
-Você acabou de ser contratado pela melhor empresa de tecnologia do mundo: a **CUBOS**.
-Sua primeira tarefa como desenvolvedor é criar uma API para um Banco Digital. Esse será um projeto **piloto**, ou seja, no futuro outras funcionalidades serão implementadas, portanto, dados do banco (nome, agência, etc.) serão imutáveis.
-
-Seu papel é construir uma RESTful API que permita:
+# Construcao da API
 
 -   Criar conta bancária
 -   Atualizar os dados do usuário da conta bancária
@@ -18,20 +13,9 @@ Seu papel é construir uma RESTful API que permita:
 -   Emitir extrato bancário
 -   Excluir uma conta bancária
 
-## Requisitos obrigatórios
-
--   Sua API deve seguir o padrão REST
--   Seu código deve estar organizado, delimitando as responsabilidades de cada arquivo adequadamente. Ou seja, é esperado que ele tenha, no mínimo:
-    -   Um arquivo index.js
-    -   Um arquivo servidor.js
-    -   Um arquivo de rotas
-    -   Um pasta com controladores
--   Qualquer valor (dinheiro) deverá ser representado em centavos (Ex.: R$ 10,00 reais = 1000)
--   Evite códigos duplicados. Antes de copiar e colar, pense se não faz sentido esse pedaço de código estar centralizado numa função.
-
 ## Persistências dos dados
 
-Os dados serão persistidos em memória, no objeto existente dentro do arquivo `bancodedados.js`. Todas as transações e contas bancárias deverão ser inseridas dentro deste objeto, seguindo a estrutura que já existe.
+Os dados serão persistidos em memória, no objeto existente dentro do arquivo `bancodedados.js`. Todas as transações e contas bancárias sao  inseridas dentro deste objeto
 
 ### Estrutura do objeto no arquivo `bancodedados.js`
 
